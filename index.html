@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <title>Landing Page</title>
+  </head>
+  <body>
+      <!--Barra de Navegação-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleIndicators">Carousel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Texto">Texto</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Video">Video</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Imagens">Imagens</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Cards">Cards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Formulario">Formulario</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+    </nav>
+    <!--/Barra de Navegação-->
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/img_1.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/img_2.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/img_3.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    <!--/Carousel-->
+
+    <!--Texto-->
+   <div class="container my-4 text-center" id="Texto">
+       <h1>Texto</h1>
+   </div>
+    <div class="row my-5">
+        <div class="col-3 ml-5">
+          <nav id="navbar-example3" class="navbar navbar-light bg-light">
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link" href="#item-1">Item 1</a>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ml-3 my-1" href="#item-1-1">Item 1-1</a>
+                  <a class="nav-link ml-3 my-1" href="#item-1-2">Item 1-2</a>
+                </nav>
+                <a class="nav-link" href="#item-2">Item 2</a>
+                <a class="nav-link" href="#item-3">Item 3</a>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ml-3 my-1" href="#item-3-1">Item 3-1</a>
+                  <a class="nav-link ml-3 my-1" href="#item-3-2">Item 3-2</a>
+                </nav>
+              </nav>
+          </nav>
+        </div>
+        <div class="col-8" id="Texto">
+          <div data-spy="scroll" data-target="#navbar-example3" data-offset="0" class="scrollspySite">
+              <h4 id="item-1">Item 1</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos architecto at, 
+                  distinctio recusandae magni amet soluta ipsam asperiores, 
+                  iste obcaecati fugiat facere hic illum eum aperiam ullam reprehenderit perferendis?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus atque nemo blanditiis unde 
+                  quis molestias obcaecati dicta! Voluptate quidem nostrum quas enim temporibus, unde animi quia id quis ex cum!
+              </p>
+              <h5 id="item-1-1">Item 1-1</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis numquam iusto animi, 
+                  alias minus natus deserunt qui libero quod impedit debitis velit possimus maxime cum 
+                  doloremque ducimus modi delectus dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Atque earum quo nostrum quae reprehenderit nam obcaecati ea similique eaque aliquam. Quaerat, molestias? 
+                  Illo voluptate nihil molestiae quibusdam ut omnis quis.</p>
+              <h5 id="item-1-2">Item 1-2</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente nostrum, 
+                  exercitationem perferendis non officia dolore ad iste architecto id doloribus amet laboriosam aut provident consectetur ratione. 
+                  Nisi, consequatur vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Laudantium est velit suscipit eligendi vel voluptas deleniti labore nostrum enim officia molestias 
+                  odio nobis tenetur placeat dolorum ut, inventore, blanditiis excepturi.</p>
+              <h4 id="item-2">Item 2</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis beatae ad ipsum incidunt deserunt molestias 
+                  ducimus voluptas quam vitae sequi cumque, sed quidem optio voluptate tempore eligendi dolor modi?</p>
+              <h4 id="item-3">Item 3</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus dolorum non vitae recusandae officiis voluptas adipisci? 
+                  Sed alias minus quos et omnis voluptas, sapiente, at, laboriosam ipsa aspernatur sunt eum?
+              </p>
+              <h5 id="item-3-1">Item 3-1</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nostrum similique odio placeat, omnis deserunt 
+                  corrupti delectus sunt aspernatur maxime. Error laudantium earum perspiciatis accusamus.
+                   Voluptatibus hic veritatis laudantium facere!</p>
+              <h5 id="item-3-2">Item 3-2</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque in consectetur minima rerum quod sapiente, 
+                  impedit hic quo autem iure mollitia nihil dolore incidunt dolor fuga ratione, nemo tempore velit!</p>
+            </div>
+        </div>
+    </div>
+    <!--/Texto-->
+
+    <!--Video-->
+    <div class="container" id="Video">
+        <h1 class="text-center">Video</h1>
+        <div class="d-flex justify-content-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KCuogbn1uYs" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div> 
+    </div>
+    
+    <!--/Video-->
+
+    <!--Imagens-->
+        <div class="container my-5" id="Imagens"></div>
+            <h1 class="text-center">Imagens</h1>
+            <div class="d-flex justify-content-around my-3">
+                <img src="assets/img/tec_1.jpg" alt="">
+                <img src="assets/img/tec_2.jpg" alt="">
+                <img src="assets/img/tec_3.jpg" alt="">
+                <img src="assets/img/tec_4.jpg" alt="">
+            </div>
+        </div>
+    <!--/Imagens-->
+
+    <!--Jumbotron e Cards-->
+    <div class="jumbotron jumbotron-fluid my-5" id="Cards">
+        <div class="container">
+            <h1 class="display-4 text-center">Cards</h1>
+            <div class="d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 01</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
+                      <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                      <a href="#" class="card-link">Link do card</a>
+                      <a href="#" class="card-link">Outro link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 02</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
+                      <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                      <a href="#" class="card-link">Link do card</a>
+                      <a href="#" class="card-link">Outro link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 03</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Subtitulo do card</h6>
+                      <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                      <a href="#" class="card-link">Link do card</a>
+                      <a href="#" class="card-link">Outro link</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+    <!--/Jumbotron e Cards-->
+    
+    <!--Formulario-->
+    <h2 class="text-center">Formulario</h2>
+    <div class="d-flex justify-content-center mb-5">
+            <form id="Formulario">
+            <div class="form-row">
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="Nome">
+              </div>
+              <div class="col-5">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="col-1">
+                <button type="button" class="btn btn-outline-info">Enviar</button>
+              </div>
+            </div>
+          </form>
+    </div>
+    <!--/Formulario-->
+    
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  <footer>
+    <hr>
+    <div class="row mb-3">
+      <div class="col-md-12 d-flex justify-content-center">
+        
+          <a href="https://www.github.com/" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img/github.png" alt="Logo do github">
+          </a>
+    
+          <a href="https://www.linkedin.com/" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+          </a>
+    
+          <a href="https://www.instagram.com/" target="_blank" class="p-3">
+            <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Intagram">
+          </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">
+          Todos os direitos reservados &copy
+        </p>
+      </div>
+    </div>
+</footer>
+</html>
